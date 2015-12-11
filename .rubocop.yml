@@ -1,0 +1,21 @@
+AllCops:
+  Exclude:
+    - ./Gemfile
+
+StringLiterals:
+  Enabled: false
+
+WordArray:
+  Enabled: false
+
+LineLength:
+  Enabled: false
+
+Documentation:
+  Enabled: false
+
+TrailingBlankLines:
+  Enabled: false
+
+RegexpLiteral:
+  Enabled: false
