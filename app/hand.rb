@@ -14,13 +14,7 @@ module Hand
   end
 
   def hand_busted?
-    if hand_value == 0
-      false
-    elsif hand_value <= 21
-      false
-    else
-      true
-    end
+    hand_value <= 21 ? false : true
   end
 
   private
