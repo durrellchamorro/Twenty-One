@@ -35,9 +35,17 @@ class Game
   end
 
   def show_dealers_face_up_card
-    value = dealer.hand.last.value
-    suit = dealer.hand.last.suit
+    value = dealers_last_card.value
+    suit = dealers_last_card.suit
     puts "Dealers face up card: #{value} of #{suit} "
+  end
+
+  def dealers_hand
+    dealer.hand
+  end
+
+  def dealers_last_card
+    dealers_hand.last
   end
 
   def show_players_cards

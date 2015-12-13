@@ -1,4 +1,7 @@
-This is a simplified version of Blackjack written in Ruby 2.2.1 through TDD that you can play in the command line.
+* This is a simplified version of Blackjack written in Ruby 2.2.1 through TDD that you can play in the command line.
+* In order to run the game first enter the following into your terminal to get execution permissions: ``chmod +x run.rb``
+* Then enter ``./run.rb`` into your command line to start the game.
+* To run the test suite comment out ``Game.new.play`` at the bototm of the game.rb file and then run rspec like normal.
 
 Rules:
 ======
